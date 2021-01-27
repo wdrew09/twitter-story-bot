@@ -228,7 +228,7 @@ let start = async () => {
     ])
     respondToMessages()
 
-    setTimeout(start, 7200000); // 2 hours
+     //7200000 2 hours
 }
 
-start()
+setTimeout(start, 500000);
